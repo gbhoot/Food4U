@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6629ECE1C90947F00D5D2E0 /* SKSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6629ECD1C90947F00D5D2E0 /* SKSAppDelegate.swift */; };
+		A6629ED01C90947F00D5D2E0 /* SKSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6629ECF1C90947F00D5D2E0 /* SKSMainViewController.swift */; };
+		A6629ED51C90947F00D5D2E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6629ED41C90947F00D5D2E0 /* Images.xcassets */; };
+		A6629EE11C9094BE00D5D2E0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6629EDF1C9094BE00D5D2E0 /* Main_iPhone.storyboard */; };
+		A6629EE41C9096FE00D5D2E0 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6629EE31C9096FE00D5D2E0 /* SpeechKit.framework */; };
+		A6629EE71C90976200D5D2E0 /* SKSConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6629EE61C90976200D5D2E0 /* SKSConfiguration.swift */; };
+		A6629EEB1C909FD200D5D2E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6629EEA1C909FD200D5D2E0 /* InfoPlist.strings */; };
+		A6E94B1C1C90A3160075E8CA /* SKSASRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94B1B1C90A3160075E8CA /* SKSASRViewController.swift */; };
+		A6E94B211C90B0EF0075E8CA /* sk_error.pcm in Resources */ = {isa = PBXBuildFile; fileRef = A6E94B1E1C90B0EB0075E8CA /* sk_error.pcm */; };
+		A6E94B221C90B0F20075E8CA /* sk_start.pcm in Resources */ = {isa = PBXBuildFile; fileRef = A6E94B1F1C90B0EB0075E8CA /* sk_start.pcm */; };
+		A6E94B231C90B0F20075E8CA /* sk_stop.pcm in Resources */ = {isa = PBXBuildFile; fileRef = A6E94B201C90B0EB0075E8CA /* sk_stop.pcm */; };
+		A6E94B241C90B0F50075E8CA /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6E94B1D1C90B0EB0075E8CA /* FontAwesome.otf */; };
+		A6E94B281C90B6770075E8CA /* SKSNLUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94B271C90B6770075E8CA /* SKSNLUViewController.swift */; };
+		A6E94B2A1C90B9CF0075E8CA /* SKSTTSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94B291C90B9CF0075E8CA /* SKSTTSViewController.swift */; };
+		A6E94B2C1C90BFB40075E8CA /* SKSTextNLUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94B2B1C90BFB40075E8CA /* SKSTextNLUViewController.swift */; };
+		A6E94B2E1C90C2FC0075E8CA /* SKSAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94B2D1C90C2FC0075E8CA /* SKSAudioViewController.swift */; };
+		A6E94B301C90C6810075E8CA /* SKSConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94B2F1C90C6810075E8CA /* SKSConfigViewController.swift */; };
+		A6E94B321C90C8220075E8CA /* SKSAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E94B311C90C8220075E8CA /* SKSAboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6629ECA1C90947F00D5D2E0 /* SpeechKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6629ECD1C90947F00D5D2E0 /* SKSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKSAppDelegate.swift; sourceTree = "<group>"; };
+		A6629ECF1C90947F00D5D2E0 /* SKSMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKSMainViewController.swift; sourceTree = "<group>"; };
+		A6629ED41C90947F00D5D2E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6629ED91C90947F00D5D2E0 /* SpeechKitSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SpeechKitSample-Info.plist"; path = "SpeechKitSample/SpeechKitSample-Info.plist"; sourceTree = "<group>"; };
+		A6629EE01C9094BE00D5D2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A6629EE31C9096FE00D5D2E0 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = Frameworks/SpeechKit.framework; sourceTree = "<group>"; };
+		A6629EE61C90976200D5D2E0 /* SKSConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSConfiguration.swift; sourceTree = "<group>"; };
+		A6629EEA1C909FD200D5D2E0 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		A6880C221DBF9D5E0092C0A4 /* SpeechKitSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeechKitSample.entitlements; sourceTree = "<group>"; };
+		A6E94B1B1C90A3160075E8CA /* SKSASRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSASRViewController.swift; sourceTree = "<group>"; };
+		A6E94B1D1C90B0EB0075E8CA /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = Resources/FontAwesome.otf; sourceTree = "<group>"; };
+		A6E94B1E1C90B0EB0075E8CA /* sk_error.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk_error.pcm; path = Resources/sk_error.pcm; sourceTree = "<group>"; };
+		A6E94B1F1C90B0EB0075E8CA /* sk_start.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk_start.pcm; path = Resources/sk_start.pcm; sourceTree = "<group>"; };
+		A6E94B201C90B0EB0075E8CA /* sk_stop.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = sk_stop.pcm; path = Resources/sk_stop.pcm; sourceTree = "<group>"; };
+		A6E94B271C90B6770075E8CA /* SKSNLUViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSNLUViewController.swift; sourceTree = "<group>"; };
+		A6E94B291C90B9CF0075E8CA /* SKSTTSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSTTSViewController.swift; sourceTree = "<group>"; };
+		A6E94B2B1C90BFB40075E8CA /* SKSTextNLUViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSTextNLUViewController.swift; sourceTree = "<group>"; };
+		A6E94B2D1C90C2FC0075E8CA /* SKSAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSAudioViewController.swift; sourceTree = "<group>"; };
+		A6E94B2F1C90C6810075E8CA /* SKSConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSConfigViewController.swift; sourceTree = "<group>"; };
+		A6E94B311C90C8220075E8CA /* SKSAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSAboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6629EC71C90947F00D5D2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6629EE41C9096FE00D5D2E0 /* SpeechKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6629EC11C90947F00D5D2E0 = {
+			isa = PBXGroup;
+			children = (
+				A6629ECC1C90947F00D5D2E0 /* SpeechKitSample */,
+				A6629EE21C9096E900D5D2E0 /* Frameworks */,
+				A6629ECB1C90947F00D5D2E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6629ECB1C90947F00D5D2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6629ECA1C90947F00D5D2E0 /* SpeechKitSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6629ECC1C90947F00D5D2E0 /* SpeechKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				A6880C221DBF9D5E0092C0A4 /* SpeechKitSample.entitlements */,
+				A6629ECD1C90947F00D5D2E0 /* SKSAppDelegate.swift */,
+				A6629EDF1C9094BE00D5D2E0 /* Main_iPhone.storyboard */,
+				A6629EE61C90976200D5D2E0 /* SKSConfiguration.swift */,
+				A6629EE51C90973F00D5D2E0 /* Controllers */,
+				A6629ED41C90947F00D5D2E0 /* Images.xcassets */,
+				A6629EE91C909FAE00D5D2E0 /* Resources */,
+				A6629EE81C909F9D00D5D2E0 /* Supporting Files */,
+			);
+			path = SpeechKitSample;
+			sourceTree = "<group>";
+		};
+		A6629EE21C9096E900D5D2E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6629EE31C9096FE00D5D2E0 /* SpeechKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6629EE51C90973F00D5D2E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6629ECF1C90947F00D5D2E0 /* SKSMainViewController.swift */,
+				A6E94B1B1C90A3160075E8CA /* SKSASRViewController.swift */,
+				A6E94B271C90B6770075E8CA /* SKSNLUViewController.swift */,
+				A6E94B2B1C90BFB40075E8CA /* SKSTextNLUViewController.swift */,
+				A6E94B291C90B9CF0075E8CA /* SKSTTSViewController.swift */,
+				A6E94B2D1C90C2FC0075E8CA /* SKSAudioViewController.swift */,
+				A6E94B2F1C90C6810075E8CA /* SKSConfigViewController.swift */,
+				A6E94B311C90C8220075E8CA /* SKSAboutViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A6629EE81C909F9D00D5D2E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6629ED91C90947F00D5D2E0 /* SpeechKitSample-Info.plist */,
+				A6629EEA1C909FD200D5D2E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A6629EE91C909FAE00D5D2E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6E94B1D1C90B0EB0075E8CA /* FontAwesome.otf */,
+				A6E94B1E1C90B0EB0075E8CA /* sk_error.pcm */,
+				A6E94B1F1C90B0EB0075E8CA /* sk_start.pcm */,
+				A6E94B201C90B0EB0075E8CA /* sk_stop.pcm */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6629EC91C90947F00D5D2E0 /* SpeechKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6629EDC1C90947F00D5D2E0 /* Build configuration list for PBXNativeTarget "SpeechKitSample" */;
+			buildPhases = (
+				A6629EC61C90947F00D5D2E0 /* Sources */,
+				A6629EC71C90947F00D5D2E0 /* Frameworks */,
+				A6629EC81C90947F00D5D2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechKitSample;
+			productName = SpeechKitSample;
+			productReference = A6629ECA1C90947F00D5D2E0 /* SpeechKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6629EC21C90947F00D5D2E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Nuance;
+				TargetAttributes = {
+					A6629EC91C90947F00D5D2E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XPLHHD6M5T;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A6629EC51C90947F00D5D2E0 /* Build configuration list for PBXProject "SpeechKitSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6629EC11C90947F00D5D2E0;
+			productRefGroup = A6629ECB1C90947F00D5D2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6629EC91C90947F00D5D2E0 /* SpeechKitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6629EC81C90947F00D5D2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6629EE11C9094BE00D5D2E0 /* Main_iPhone.storyboard in Resources */,
+				A6E94B211C90B0EF0075E8CA /* sk_error.pcm in Resources */,
+				A6E94B231C90B0F20075E8CA /* sk_stop.pcm in Resources */,
+				A6E94B241C90B0F50075E8CA /* FontAwesome.otf in Resources */,
+				A6E94B221C90B0F20075E8CA /* sk_start.pcm in Resources */,
+				A6629ED51C90947F00D5D2E0 /* Images.xcassets in Resources */,
+				A6629EEB1C909FD200D5D2E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6629EC61C90947F00D5D2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E94B321C90C8220075E8CA /* SKSAboutViewController.swift in Sources */,
+				A6E94B2A1C90B9CF0075E8CA /* SKSTTSViewController.swift in Sources */,
+				A6E94B2E1C90C2FC0075E8CA /* SKSAudioViewController.swift in Sources */,
+				A6E94B301C90C6810075E8CA /* SKSConfigViewController.swift in Sources */,
+				A6629EE71C90976200D5D2E0 /* SKSConfiguration.swift in Sources */,
+				A6629ED01C90947F00D5D2E0 /* SKSMainViewController.swift in Sources */,
+				A6629ECE1C90947F00D5D2E0 /* SKSAppDelegate.swift in Sources */,
+				A6E94B2C1C90BFB40075E8CA /* SKSTextNLUViewController.swift in Sources */,
+				A6E94B1C1C90A3160075E8CA /* SKSASRViewController.swift in Sources */,
+				A6E94B281C90B6770075E8CA /* SKSNLUViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6629EDF1C9094BE00D5D2E0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6629EE01C9094BE00D5D2E0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6629EDA1C90947F00D5D2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6629EDB1C90947F00D5D2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6629EDD1C90947F00D5D2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SpeechKitSample/SpeechKitSample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SpeechKitSample/SpeechKitSample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-l\"c++\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuance.SpeechKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6629EDE1C90947F00D5D2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SpeechKitSample/SpeechKitSample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SpeechKitSample/SpeechKitSample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-l\"c++\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuance.SpeechKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6629EC51C90947F00D5D2E0 /* Build configuration list for PBXProject "SpeechKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6629EDA1C90947F00D5D2E0 /* Debug */,
+				A6629EDB1C90947F00D5D2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6629EDC1C90947F00D5D2E0 /* Build configuration list for PBXNativeTarget "SpeechKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6629EDD1C90947F00D5D2E0 /* Debug */,
+				A6629EDE1C90947F00D5D2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6629EC21C90947F00D5D2E0 /* Project object */;
+}
